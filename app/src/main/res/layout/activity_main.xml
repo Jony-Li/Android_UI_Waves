@@ -10,5 +10,9 @@
         android:id="@+id/wave_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        app:imageBitmap="@drawable/github"
+        app:originY="500"
+        app:waveLength="800"
+        app:waveHeight="80"
+        app:duration="1000"/>
 </LinearLayout>

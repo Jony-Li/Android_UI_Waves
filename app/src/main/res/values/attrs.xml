@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="wave_view">
+        <!-- 头像图片-->
+        <attr name="imageBitmap" format="reference"/>
+        <!-- 动画单次执行的时间-->
+        <attr name="duration" format="integer"/>
+        <!-- 动画在Y轴上的起始坐标-->
+        <attr name="originY" format="integer"/>
+        <!-- 水波纹的宽度-->
+        <attr name="waveLength" format="integer"/>
+        <!-- 水波纹的高度-->
+        <attr name="waveHeight" format="integer"/>
+    </declare-styleable>
+</resources>
